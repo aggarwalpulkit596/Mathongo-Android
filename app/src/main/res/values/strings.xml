@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MathonGo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">700980526777854</string>
+    <string name="fb_login_protocol_scheme">fb700980526777854</string>
+    <string name="fb_clientToken">7b2f8a99930acdfbd4a7e97284ca501a</string>
+
+    <string name="sampledesc">Lorem ipsum dolor sit amet consectetur adipelit aut perferendis dolor numquam enim.</string>
+    <string name="sampleTitle">Greatest Integer Function</string>
+
+    <string name="more">…<font fgcolor="blue">...View More</font></string>
+    <string name="google_analytics_tracking_id">UA-108063473-1</string>
+
+    <string name="emptyBookmarksString">"You've not bookmarked any lectures yet.\nBookmark them for easy browsing."</string>
+    <string name="emptyCoursesString">"You've not enrolled into any course yet.\nEnroll and start learning."</string>
+    <string name="emptyInternetString">"Please check your internet settings and try again."</string>
+    <string name="emptyFiltersString">"Currently we don't have any courses for your request.\nPlease try clearing the filters."</string>
+</resources>

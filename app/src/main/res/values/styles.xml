@@ -1,0 +1,79 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="customeditText" parent="Widget.Design.TextInputLayout.">
+        <item name="colorControlActivated">@color/white_transparency</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+    <style name="customDrawer" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+
+    <style name="MyCustomText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+
+<style name="RatingBarCustom" parent="Base.Widget.AppCompat.RatingBar.Small">
+    <item name="android:color">#ffffb75d</item>
+    <item name="android:colorActivatedHighlight">@color/white</item>
+    <item name="android:colorControlNormal">@color/white</item>
+</style>
+
+    <style name = "Widget.Design.TextInputLayout." parent="Widget.Design.TextInputLayout.">
+        <item name="android:colorActivatedHighlight">@color/textColor01</item>
+        <item name="colorControlActivated">@color/textColor01</item>
+        <item name="colorControlHighlight">@color/textColor01</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/textColor01</item>
+    </style>
+
+    <style name="CustomDesignHint" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/newGray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

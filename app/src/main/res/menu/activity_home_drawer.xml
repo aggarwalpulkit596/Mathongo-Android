@@ -1,0 +1,64 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+ <!-- <item
+      android:title="Home"
+      android:icon="@drawable/homeicon"
+      android:id="@+id/homeNavigationDrawer"/>-->
+
+    <item
+        android:title="Library"
+        android:icon="@drawable/bookgray"
+        android:id="@+id/libraryNavigationDrawer"/>
+
+    <item
+        android:title="My Courses"
+        android:icon="@drawable/mycoursesicon"
+        android:id="@+id/myCoursesNavigationDrawer"/>
+
+
+    <item
+        android:title="My Bookmarks"
+        android:icon="@drawable/mybookmarksicon"
+        android:id="@+id/mybookmarksNavigationDrawer"/>
+
+    <item
+        android:title="Resources"
+        android:icon="@drawable/new_resources_icon"
+        android:id="@+id/resourcesNavigationDrawer"/>
+
+
+    <!--<item-->
+        <!--android:title="Teachers"-->
+        <!--android:icon="@drawable/accountgray"-->
+        <!--android:id="@+id/teachersNavigationDrawer"/>-->
+
+
+    <!--<item-->
+        <!--android:title="Events"-->
+        <!--android:icon="@drawable/calendargray"-->
+        <!--android:id="@+id/eventsNavigationDrawer"/>-->
+
+
+  <!--  <item
+        android:title="Downloads"
+        android:icon="@drawable/downloadsicon"
+        android:id="@+id/downloadsNavigationDrawer"/>-->
+
+
+    <!--<item-->
+        <!--android:title="Settings"-->
+        <!--android:icon="@drawable/settingsicon"-->
+        <!--android:id="@+id/settingsNavigationDrawer"/>-->
+
+
+    <item
+        android:title="Logout"
+        android:icon="@drawable/logouticon"
+        android:id="@+id/logoutNavigationDrawer"/>
+
+    </group>
+
+</menu>
