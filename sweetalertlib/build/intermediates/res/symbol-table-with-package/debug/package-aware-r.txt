@@ -385,6 +385,13 @@ int drawable success_bow 0x7f09003b
 int drawable success_circle 0x7f09003c
 int drawable warning_circle 0x7f09003d
 int drawable warning_sigh 0x7f09003e
+int font robotoblack 0x7f0a0001
+int font robotobold 0x7f0a0002
+int font robotoitalic 0x7f0a0003
+int font robotolight 0x7f0a0004
+int font robotomedium 0x7f0a0005
+int font robotoregular 0x7f0a0006
+int font robotothin 0x7f0a0007
 int id action_bar 0x7f0c0001
 int id action_bar_activity_content 0x7f0c0002
 int id action_bar_container 0x7f0c0003

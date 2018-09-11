@@ -405,6 +405,15 @@ public final class R {
         public static int warning_circle = 0x7f09003d;
         public static int warning_sigh = 0x7f09003e;
     }
+    public static final class font {
+        public static int robotoblack = 0x7f0a0001;
+        public static int robotobold = 0x7f0a0002;
+        public static int robotoitalic = 0x7f0a0003;
+        public static int robotolight = 0x7f0a0004;
+        public static int robotomedium = 0x7f0a0005;
+        public static int robotoregular = 0x7f0a0006;
+        public static int robotothin = 0x7f0a0007;
+    }
     public static final class id {
         public static int action_bar = 0x7f0c0001;
         public static int action_bar_activity_content = 0x7f0c0002;

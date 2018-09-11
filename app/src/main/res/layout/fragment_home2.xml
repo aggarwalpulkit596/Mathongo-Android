@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Fragments.HomeFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/learnLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/learnRecyclerViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotobold"
+                android:text="Learn"
+                android:textColor="@color/charcoalgrey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/learnViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/learnRecyclerViewTitle"
+                android:layout_alignTop="@id/learnRecyclerViewTitle"
+                android:layout_marginStart="9dp"
+                android:layout_toRightOf="@id/learnRecyclerViewTitle"
+                android:background="@drawable/view_all_btn"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:paddingTop="6dp"
+                android:text="View All"
+                android:textColor="#1589ee"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/learnRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/learnRecyclerViewTitle"
+                android:orientation="horizontal"
+                tools:listitem="@layout/single_item_card"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/resourcesLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/learnLayout"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/resourcesRecyclerViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotobold"
+                android:text="Resources"
+                android:textColor="@color/charcoalgrey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/resourcesViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/resourcesRecyclerViewTitle"
+                android:layout_alignTop="@id/resourcesRecyclerViewTitle"
+                android:layout_marginStart="9dp"
+                android:layout_toRightOf="@id/resourcesRecyclerViewTitle"
+                android:background="@drawable/view_all_btn"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:paddingTop="6dp"
+                android:text="View All"
+                android:textColor="#1589ee"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/resourcesRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/resourcesRecyclerViewTitle"
+                android:orientation="horizontal"
+                tools:listitem="@layout/single_item_card"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/prepTalkLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resourcesLayout"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/prepTalkRecyclerViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotobold"
+                android:text="Prep Talk"
+                android:textColor="@color/charcoalgrey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prepTalkViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/prepTalkRecyclerViewTitle"
+                android:layout_alignTop="@id/prepTalkRecyclerViewTitle"
+                android:layout_marginStart="9dp"
+                android:layout_toRightOf="@id/prepTalkRecyclerViewTitle"
+                android:background="@drawable/view_all_btn"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:paddingTop="6dp"
+                android:text="View All"
+                android:textColor="#1589ee"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/prepTalkRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prepTalkRecyclerViewTitle"
+                android:orientation="horizontal"
+                tools:listitem="@layout/single_item_card"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/latestYoutubeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prepTalkLayout"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/latestYoutubeRecyclerViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotobold"
+                android:text="Latest From Youtube"
+                android:textColor="@color/charcoalgrey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/latestYoutubeViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/latestYoutubeRecyclerViewTitle"
+                android:layout_alignTop="@id/latestYoutubeRecyclerViewTitle"
+                android:layout_marginStart="9dp"
+                android:layout_toRightOf="@id/latestYoutubeRecyclerViewTitle"
+                android:background="@drawable/view_all_btn"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:paddingTop="6dp"
+                android:text="View All"
+                android:textColor="#1589ee"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/latestYoutubeRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/latestYoutubeRecyclerViewTitle"
+                android:orientation="horizontal"
+                tools:listitem="@layout/single_item_card"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/topReadsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/latestYoutubeLayout"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/topReadsRecyclerViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotobold"
+                android:text="Top Reads"
+                android:textColor="@color/charcoalgrey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/topReadsViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/topReadsRecyclerViewTitle"
+                android:layout_alignTop="@id/topReadsRecyclerViewTitle"
+                android:layout_marginStart="9dp"
+                android:layout_toRightOf="@id/topReadsRecyclerViewTitle"
+                android:background="@drawable/view_all_btn"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:paddingTop="6dp"
+                android:text="View All"
+                android:textColor="#1589ee"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/topReadsRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topReadsRecyclerViewTitle"
+                android:orientation="horizontal"
+                tools:listitem="@layout/single_item_card"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
