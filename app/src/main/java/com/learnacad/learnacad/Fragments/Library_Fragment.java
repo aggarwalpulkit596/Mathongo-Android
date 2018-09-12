@@ -68,7 +68,7 @@ public class Library_Fragment extends Fragment {
 
         FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.content_frame,new LibraryCourseListFragment(),"LibraryShown");
+        fragmentTransaction.replace(R.id.content_frame,new HomeFragment(),"LibraryShown");
         fragmentTransaction.commit();
     }
 

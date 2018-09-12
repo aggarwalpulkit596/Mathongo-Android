@@ -219,7 +219,7 @@ public class LCCDetailsFragment extends Fragment {
                     .append(t.getImgUrl())
                     .append(".jpg");
 
-            Picasso.with(mContext).load(builder1.toString()).error(R.drawable.teachersicon).into(circleImageView);
+            Picasso.get().load(builder1.toString()).error(R.drawable.teachersicon).into(circleImageView);
         }
     }
 
