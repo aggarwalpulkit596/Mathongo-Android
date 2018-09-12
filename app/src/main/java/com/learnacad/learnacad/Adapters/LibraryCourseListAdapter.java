@@ -125,7 +125,7 @@ public class LibraryCourseListAdapter extends RecyclerView.Adapter<LibraryCourse
                         .append(minicourse.getTutorImageUrl())
                         .append(".jpg");
 
-                Picasso.with(mContext).load(builder1.toString()).error(R.drawable.teachersicon).into(holder.circleImageView);
+                Picasso.get().load(builder1.toString()).error(R.drawable.teachersicon).into(holder.circleImageView);
             }
         }
 /*

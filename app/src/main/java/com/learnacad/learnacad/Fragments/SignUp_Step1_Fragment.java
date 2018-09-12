@@ -98,7 +98,7 @@ public class SignUp_Step1_Fragment extends Fragment {
     @Override
     public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
 
-        Picasso.with(context)
+        Picasso.get()
                 .load(R.drawable.logotwo)
                 .into(headerImageView);
 
